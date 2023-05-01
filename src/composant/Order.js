@@ -37,7 +37,7 @@ export default function Order({handleClose}){
         for(let i=0 ; i<items.length; i++){
             axios({
               method: 'post',
-              url: 'http://127.0.0.1:8000/api/cd/orders/',
+              url: 'http://emmanorah.pythonanywhere.com/api/cd/orders/',
               data: {
                 "nom": nom,
                 
@@ -67,6 +67,14 @@ export default function Order({handleClose}){
         
         //alert("commande passé avec succès")
     }
+    
+    
+
+    
+    
+    
+    
+    
     
     const handleChange = (e)=>{
         setNom(e.target.value)
