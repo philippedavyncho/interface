@@ -24,7 +24,7 @@ export default function Produit({name, price, image, item, id}){
                 <div className="card">
                   <Link to={`/${id}`}>
                   
-                    <img src={image} className="card-img-top d-none d-md-block img-fluid" alt={name}/>
+                    <img src={image} className="card-img-top d-none d-md-block img-fluid" alt={name} style={{width:"150px"}}/>
             
                   <img src={image} className="card-img-top d-md-none w-300" alt={name}/>
                   </Link>
