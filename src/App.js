@@ -6,6 +6,7 @@ import Detail from "./composant/Detail"
 import Order from "./composant/Order"
 import Footer from "./composant/Footer"
 import Produit from "./composant/Produit"
+import BigMenu from "./composant/BigMenu"
 
 
 import { ToastContainer } from 'react-toastify';
