@@ -19,7 +19,7 @@ export default function Menu(){
     
     return(
         <>
-        <header className="navbar navbar-expand-lg bd-navbar sticky-top" style={{backgroundColor: "#FFFFFF"}}>
+        <header className="navbar navbar-expand-lg bd-navbar sticky-top d-md-none" style={{backgroundColor: "#FFFFFF"}}>
             <nav className="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
                 <div className="bd-navbar-toggle">
                   <button className="border-0 p-2 bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">

@@ -18,6 +18,7 @@ export default function App(){
             
             <CartProvider>
                 <ToastContainer />
+                <BigMenu/>
                 <Menu/>
                 <Routes>
                     <Route path='/' element={<Data/>}/>
