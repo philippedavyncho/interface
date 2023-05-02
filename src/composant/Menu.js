@@ -91,7 +91,7 @@ export default function Menu(){
         
         
         <div className="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
-            <aside className="bd-sidebar">
+            <aside className="bd-sidebar d-md-none">
       <div className="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel">
         <div className="offcanvas-header border-bottom">
           <h5 className="offcanvas-title" id="bdSidebarOffcanvasLabel">NOS CATÉGORIES</h5>

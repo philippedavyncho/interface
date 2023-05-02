@@ -1,9 +1,10 @@
+
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Categorie from "./Categorie"
 
-export default function Example() {
+export default function Offg() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,14 +13,10 @@ export default function Example() {
   return (
     <>
       <Button variant="white" onClick={handleShow}>
-         <i class="bi bi-list"></i>
+        <i class="bi bi-list"></i>
       </Button>
-      
-     
-      
-      
 
-      <Offcanvas show={show} onHide={handleClose} backdrop="static">
+      <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>NOS CATÉGORIES</Offcanvas.Title>
         </Offcanvas.Header>
