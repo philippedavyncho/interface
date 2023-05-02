@@ -20,7 +20,7 @@ export default function Produit({name, price, image, item, id}){
     
     return(
         <>
-            <div className='col-md-4 col-4 g-1'>
+            <div className='col-md-3 col-4 g-1'>
                 <div className="card">
                   <Link to={`/${id}`}>
                     <img src={image} className="card-img-top d-none d-md-block" alt={name}/>
