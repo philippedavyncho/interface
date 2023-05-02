@@ -21,10 +21,10 @@ export default function Example() {
 
       <Offcanvas show={show} onHide={handleClose} backdrop="static">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title><h5 className="offcanvas-title" id="bdSidebarOffcanvasLabel">NOS CATÉGORIES</h5></Offcanvas.Title>
+          <Offcanvas.Title>NOS CATÉGORIES</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Categorie/>
+          <Categorie />
         </Offcanvas.Body>
       </Offcanvas>
     </>

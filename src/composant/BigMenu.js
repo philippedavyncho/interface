@@ -15,12 +15,12 @@ export default function BigMenu(){
     return(
         <header className="d-none d-md-block">
             <div className="d-flex justify-content-between align-items-center">
-                <div className="">
-                    <Offg/>
+                <div>
+                    <Offg />
                 </div>
                 <div>YATTE</div>
-                <div className="">
-                    <Offd/>
+                <div>
+                    <Offd />
                 </div>
             </div>
         </header>
