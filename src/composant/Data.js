@@ -16,7 +16,7 @@ export default function Data(){
     
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
-    const [pageSize] = useState(15);
+    const [pageSize] = useState(24);
     
     
     const { selectedCategory } = useContext(CategoryContext);
