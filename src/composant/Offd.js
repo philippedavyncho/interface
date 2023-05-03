@@ -87,7 +87,7 @@ export default function Offd(){
                 className="me-2"
               /></div>
             <div className="container">
-                <div className="border border-6 border-info p-3 rounded">
+                <div className="border border-6 border-info p-3 rounded text-center">
                         {items.map((item,index)=>{
                         return(
                         <div key={index}>
