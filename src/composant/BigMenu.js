@@ -2,8 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import {useCart} from "react-use-cart"
 
-import Button from 'react-bootstrap/Button';
-
 import Offg  from "./Offg"
 
 import Offd from "./Offd"
@@ -22,10 +20,10 @@ export default function BigMenu(){
                 </div>
                 <div>YATTE</div>
                 <div>
-                    <Button variant="white">
+                    <button>
                          <i class="bi bi-cart3"></i>
                          <span className="translate-middle badge rounded-pill" style={{backgroundColor:"#e32727"}}>{totalItems}</span>
-                    </Button>
+                    </button>
                 </div>
             </div>
         </header>
