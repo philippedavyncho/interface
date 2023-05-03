@@ -139,7 +139,7 @@ export default function Offd(){
             
             <div className="alert alert-info mt-3">
                 <p className="m-0" style={{fontSize:"10px"}}>
-                  <IconTruck className="i-va me-2"/> livraison gratuite pour tout achat de plus de 100 mille francs
+                  <IconTruck className="i-va"/> livraison gratuite pour tout achat de plus de 100 mille francs
                 </p>
               </div>
               
