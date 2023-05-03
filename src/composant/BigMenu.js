@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
-
+import {useCart} from "react-use-cart"
 
 import Offg  from "./Offg"
 
@@ -10,7 +10,7 @@ import Offd from "./Offd"
 
 export default function BigMenu(){
     
-    
+    const {totalItems} = useCart()
     
     return(
         <header className="d-none d-md-block">
