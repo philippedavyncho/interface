@@ -18,6 +18,8 @@ import axios from "axios"
 
 import Produit from "./Produit"
 
+import {Link} from "react-router-dom"
+
 
 export default function Offd(){
     
@@ -70,7 +72,7 @@ export default function Offd(){
                 width="300"
                 alt="Visa"
                 className="mb-3 pb-3"
-              /><button type="button" className="btn btn-primary" data-bs-dismiss="offcanvas" data-bs-target="#bdNavbar">continuer votre shopping</button></div>
+              /><Link to="/"><button type="button" className="btn btn-primary">continuer votre shopping</button></Link></div>
     return(
         <>
             
