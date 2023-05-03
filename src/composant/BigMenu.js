@@ -4,7 +4,7 @@ import {useCart} from "react-use-cart"
 
 import Offg  from "./Offg"
 
-import Offd from "./Offd"
+
 
 
 
