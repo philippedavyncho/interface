@@ -20,10 +20,10 @@ export default function BigMenu(){
                 </div>
                 <div>YATTE</div>
                 <div>
-                    <button>
+                
                          <i class="bi bi-cart3"></i>
                          <span className="translate-middle badge rounded-pill" style={{backgroundColor:"#e32727"}}>{totalItems}</span>
-                    </button>
+                
                 </div>
             </div>
         </header>
