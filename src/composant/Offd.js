@@ -80,7 +80,7 @@ export default function Offd(){
               /><Link to="/"><button type="button" className="btn btn-primary">continuer votre shopping</button></Link></div></>
     return(
         <>
-            <div className="mb-3"><img
+            <div><img
                 src="../../img/a2.png"
                 width="42"
                 alt="Visa"
