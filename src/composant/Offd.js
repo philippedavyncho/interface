@@ -86,8 +86,8 @@ export default function Offd(){
                 alt="Visa"
                 className="me-2"
               /></div>
-            <div className="container">
-                <div className="border border-6 border-info p-3 rounded text-center">
+            <div className="container text-center">
+                <div className="border border-6 border-info p-3 rounded text-center" style={{width:"60%"}}>
                         {items.map((item,index)=>{
                         return(
                         <div key={index}>
@@ -138,7 +138,7 @@ export default function Offd(){
             </div>
             
             <div className="alert alert-info mt-3">
-                <p className="m-0" style={{fontSize:"10px", width: "60%"}}>
+                <p className="m-0" style={{width:"60%"}}>
                   <IconTruck className="i-va"/> livraison gratuite pour tout achat de plus de 100 mille francs
                 </p>
               </div>
