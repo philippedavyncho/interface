@@ -67,15 +67,25 @@ export default function Offd(){
     );
     
 
-    if(isEmpty) return <div className="text-center"><p className="my-3 py-3 fs-3" aria-label="Bootstrap">votre panier est vide</p><img
+    if(isEmpty) return <> <div className="text-center"><div><img
+                src="../../img/a2.png"
+                width="42"
+                alt="Visa"
+                className="me-2"
+              /></div><p className="my-3 py-3 fs-3" aria-label="Bootstrap">votre panier est vide</p><img
                 src="../../img/a2.png"
                 width="300"
                 alt="Visa"
                 className="mb-3 pb-3"
-              /><Link to="/"><button type="button" className="btn btn-primary">continuer votre shopping</button></Link></div>
+              /><Link to="/"><button type="button" className="btn btn-primary">continuer votre shopping</button></Link></div></>
     return(
         <>
-            
+            <div><img
+                src="../../img/a2.png"
+                width="42"
+                alt="Visa"
+                className="me-2"
+              /></div>
             <div className="container-fluid">
                 <div className="border border-6 border-info p-3 rounded">
                         {items.map((item,index)=>{
