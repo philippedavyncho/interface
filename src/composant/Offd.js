@@ -86,7 +86,7 @@ export default function Offd(){
                 alt="Visa"
                 className="me-2"
               /></div>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="border border-6 border-info p-3 rounded">
                         {items.map((item,index)=>{
                         return(
