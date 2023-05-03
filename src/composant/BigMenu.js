@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import {useCart} from "react-use-cart"
 
+import Button from 'react-bootstrap/Button';
+
 import Offg  from "./Offg"
 
 import Offd from "./Offd"
