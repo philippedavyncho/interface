@@ -26,7 +26,7 @@ export default function App(){
                     <Route path='/:produitId' element={<Detail/>}/>
                     <Route path='/order' element={<Order/>}/>
                     <Route path='/produit' element={<Produit/>}/>
-                    <Route path='/Offd' element={<Offd/>}/>
+                    <Route path='/offd' element={<Offd/>}/>
                 </Routes>
                 <Footer/>
             </CartProvider>
