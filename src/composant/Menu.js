@@ -87,7 +87,7 @@ export default function Menu(){
         </div>
         
         
-        <Slider className="my-0"/>
+        <Slider className="my-0 d-md-none"/>
         
         
         <div className="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
