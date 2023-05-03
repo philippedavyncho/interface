@@ -17,7 +17,7 @@ export default function Example() {
 
   return (
     <>
-      <Button variant="white" onClick={handleShow}>
+      <Button variant="white">
          <i class="bi bi-cart3"></i>
          <span className="translate-middle badge rounded-pill" style={{backgroundColor:"#e32727"}}>{totalItems}</span>
       </Button>
