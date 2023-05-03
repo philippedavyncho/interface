@@ -91,7 +91,7 @@ export default function Offd(){
                         {items.map((item,index)=>{
                         return(
                         <div key={index}>
-                        <div className="card mt-2 shadow">
+                        <div className="card mt-2 shadow" style={{width: "40%"}}>
                         <div className="card-body">
                             <div className="text-center">
                                 <img src={item.image} alt={item.name} style={{width:"8rem"}} />
@@ -138,7 +138,7 @@ export default function Offd(){
             </div>
             
             <div className="alert alert-info mt-3">
-                <p className="m-0" style={{fontSize:"10px"}}>
+                <p className="m-0" style={{fontSize:"10px", width: "60%"}}>
                   <IconTruck className="i-va"/> livraison gratuite pour tout achat de plus de 100 mille francs
                 </p>
               </div>
