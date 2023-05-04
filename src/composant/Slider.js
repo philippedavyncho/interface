@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselFadeExample() {
   return (
-    <Carousel fade indicators={false} nextIcon={false} prevIcon={false}>
+    <Carousel indicators={false} nextIcon={false} prevIcon={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
