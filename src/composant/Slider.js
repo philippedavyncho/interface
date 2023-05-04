@@ -31,15 +31,15 @@ function CarouselFadeExample() {
           alt="Third slide"
         />
       </Carousel.Item>
-    </Carousel>
-    
-    <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
           src={ange4}
           alt="Third slide"
         />
       </Carousel.Item>
+      
+      
     </Carousel>
   );
 }
