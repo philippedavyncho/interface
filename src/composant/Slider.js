@@ -1,6 +1,7 @@
-import slide1 from '../slide1.jpg'
-import slide2 from '../slide2.jpg'
-import slide3 from '../slide3.jpg'
+import ange1 from '../ange1.jpg'
+import ange2 from '../ange2.jpg'
+import ange3 from '../ange3.jpg'
+import ange4 from '../ange4.jpg'
 
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -10,7 +11,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide1}
+          src={ange1}
           alt="First slide"
           
         />
@@ -18,7 +19,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide2}
+          src={ange2}
           alt="Second slide"
         />
 
@@ -26,7 +27,16 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={slide3}
+          src={ange3}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+    
+    <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ange4}
           alt="Third slide"
         />
       </Carousel.Item>
